@@ -1,5 +1,6 @@
 # maduser-container
 
+```js
 const App = new Container({
     components: {
         some-arbitrary-name: {
@@ -24,3 +25,4 @@ const App = new Container({
 });
 
 App.initAll();
+```
